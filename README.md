@@ -1,16 +1,30 @@
-# flutter_unit_test
+App para soma simples 
 
-A new Flutter project.
+Projeto desenvolvido em flutter com a função de realizar somas simples e auxiliar na confirmação de resultados.
 
-## Getting Started
+## Requisitos e plataformas
 
-This project is a starting point for a Flutter application.
+Para que a aplicação rode, é necessário que a plataforma seja instalada devidamente.
+O procedimento pode ser seguido através do seguinte link: -(https://docs.flutter.dev/get-started/install)
+Realizar o download e instalação d editor de código-fonte Visual Studio Code através do link: (https://code.visualstudio.com/docs?dv=win)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Como executar o app
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I.Clone o repositório em sua máquina 
+git clone https://github.com/Pedro-HRibeiro/App_Lab_C214.git
+
+II.Realize em seguida a instalação das dependencias necessárias (pacotes de software externos que seu aplicativo utiliza para realizar tarefas específicas).
+flutter pub get
+
+III.Após os procedimentos anteriores, será possível rodar o app com o seguinte comando
+flutter run
+
+
+## Análise de erros
+
+I. Para validar se existe algum erro na aplicação, foi desenvolvido um teste que é executado da seguinte forma
+flutter test
+
+
+## Autor: Pedro Henrique Ribeiro
